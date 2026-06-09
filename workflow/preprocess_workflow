@@ -38,7 +38,7 @@ digraph {
 	wrf1 [label=<<b><font point-size="18">4. real.exe and aerosols</font></b>> fillcolor="#fdae61" shape=box style=filled]
 	wrf1a [label="In WRF/run directory link met_em files" fillcolor="#fee08b" shape=box style=filled]
 	wrf1b [label="Run real.exe" fillcolor="#fee08b" shape=box style=filled]
-	wrf1c [label="Convert aerosol data into WRF format" fillcolor="#fee08b" shape=box style=filled]
+	wrf1c [label="Convert aerosol data into WRF format with aerosols4wrf" fillcolor="#fee08b" fontcolor=blue href="https://github.com/AEI-CORDyS/aerosols4wrf" shape=box style=filled]
 	wps3c -> wrf1
 	wrf1 -> wrf1a
 	wrf1a -> wrf1b
